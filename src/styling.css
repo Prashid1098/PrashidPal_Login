@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Log
+{
+    margin: 22vh 35vw 15vh 35vw;
+    padding-top: 5vh;
+    padding-left: 2vw;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.wb
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+.sign
+{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: mulish;
+    padding: 1vh 0vw 3vh 0vw;
+}
+form label 
+{
+    font-weight: 500;
+}
+form input
+{
+    width: 24vw;
+    height: 45px;
+    margin-top: 1vh;
+    border: 1px thin;
+    border-radius: 10px;
+}
+form button
+{
+    background-color: rgb(83, 76, 240);
+    color: white;
+    padding: 2vh 9.3vw;
+    border-radius: 8px;
+    border: none;
+    margin-top: 1vh;
+    font-weight: bold;
+    font-size: 17px;
+}
+form button:hover
+{
+    cursor: pointer;
+}
+.forget
+{
+    padding-left: 7vw;
+    padding-top: 2vh;
+    color: blueviolet;
+    font-weight: 700;
+}
+.signup
+{
+    padding-top: 5vh;
+    padding-left: 6vw;
+    padding-bottom: 8vh;
+}
+a
+{
+    text-decoration: none;
+    color: blueviolet;
+}
+@media only screen  and (max-width:361px)
+{
+    .Log
+    {
+        margin: 20vh 5vw 0vh 0vw;
+    }
+    form input
+    {
+        width: 90vw;
+    }
+    button 
+    {
+        width: 98%;
+    }
+    .forget
+    {
+        padding-left: 24vw;
+    }
+    .signup 
+    {
+        padding-left:17vw;
+    }
+}
